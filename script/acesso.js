@@ -22,7 +22,7 @@ $(function(){
                     if(retorno["erro"]){
                         $("div#mensagem").html(retorno["mensagem"]);
                     }else{
-                        window.location = "dashboard.php";
+                        window.location = "/cobranca/index.php";
                     }
                 },
 
