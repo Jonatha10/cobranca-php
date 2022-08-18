@@ -1,8 +1,8 @@
 <?php
     require("conexao.php");
 
-    if(isset($_POST["email"]) && isset($_POST["senha"]) && $conexao != null){
-        $query = $conexao->prepare("SELECT * FROM usuarios WHERE email = ? AND senha = ?");
+    if(isset($_POST["email"]) && isset($_POST["senha"]) && $conn != null){
+        $query = $conn->prepare("SELECT * FROM usuarios WHERE email = ? AND senha = ?");
         $query->execute(array($_POST["email"], $_POST["senha"]));
 
         if($query->rowCount()){

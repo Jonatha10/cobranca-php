@@ -13,10 +13,12 @@
 
 <body>
 
-<div class="p-3 mb-2 bg-dark text-white">
+  <div class="p-3 mb-2 bg-dark text-white">
     <div class="container ">
-    <a href="index.php" style="color: white; "><h2 class="text-center">SISTEMA DE COBRANÇAS</h2></a>
-</div>
- 
+      <a href="/cobranca/index.php" style="color: white; ">
+        <h2 class="text-center">SISTEMA DE COBRANÇAS</h2>
+      </a>
+    </div>
+
 
   </div>
